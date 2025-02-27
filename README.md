@@ -69,8 +69,7 @@ The **FedDrift** algorithm employs a proactive, multi-model approach to effectiv
 ## Conclusion
 The **FedDrift** algorithm stands out as a powerful and scalable solution for tackling concept drift in federated learning environments. By dynamically clustering clients and training multiple models, it ensures that the trained models remain effective despite fluctuating data distributions. This approach proves to be pivotal for real-world federated learning applications where data is **non-IID** and susceptible to frequent concept drifts, ensuring that models can adapt and perform well in dynamic environments.
 
-## Summary
 - **FedDrift** employs a bottom-up approach that isolates clients detecting drift and merges clients iteratively corresponding to the same concept.
-- **FedDrift Eager** is a special case where only one new concept emerges at a time.
+- **FedDrift Eager** is a special case drift detection algorithm where only one new concept emerges at a time.
 - Applying a drift detection test globally at a server aggregating the errors leads to poor performance.
 
