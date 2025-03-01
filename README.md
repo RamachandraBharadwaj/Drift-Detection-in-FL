@@ -73,3 +73,12 @@ The **FedDrift** algorithm stands out as a powerful and scalable solution for ta
 - **FedDrift Eager** is a special case drift detection algorithm where only one new concept emerges at a time.
 - Applying a drift detection test globally at a server aggregating the errors leads to poor performance.
 
+### here are the simulations results the best models for each communication round :
+
+![cluster formation](https://github.com/user-attachments/assets/949b7390-857c-4260-a157-8582abb2a782)
+
+
+### the hypothetical losses decreasing
+
+![fed eager losses](https://github.com/user-attachments/assets/118f53f0-19ed-4654-8499-18551f3098f6)
+
